@@ -14,7 +14,7 @@ You can access RunningHub online to use this plugin and models for free:
 
 *   Implementation of the Step-1 image editing concept within ComfyUI.
 *   Optimized for running on GPUs with 24GB VRAM.
-*   Supports FP8 inference for potentially faster performance and lower memory usage.
+*   Inference for potentially faster performance and lower memory usage.
 *   Simple node interface for ease of use.
 *   Passed testing locally on Windows with an RTX 4090; generating a single image takes approximately 100 seconds.
 
