@@ -101,3 +101,6 @@ Place the downloaded models in your `ComfyUI/models/step-1/` directory.
 **(Example Image/Workflow)**
 
 ![image](https://github.com/user-attachments/assets/035274a4-fc47-4249-acf0-a5e31cdd1671)
+
+4.  Thanks
+https://huggingface.co/stepfun-ai/Step1X-Edit
