@@ -89,7 +89,7 @@ Place the downloaded models in your `ComfyUI/models/step-1/` directory.
 1.  Clone this repository into your `ComfyUI/custom_nodes/` directory:
     ```bash
     cd path/to/your/ComfyUI/custom_nodes/
-    git clone https://github.com/Running-Introduction/ComfyUI_RH_Step1XEdit.git
+    git clone https://github.com/HM-RunningHub/ComfyUI_RH_Step1XEdit.git
     ```
 2.  Install the required dependencies:
     ```bash
