@@ -1,0 +1,15 @@
+[project]
+name = "rh_step1xedit"
+description = "This is a ComfyUI custom node implementation for image editing using the Step-1 model architecture, specifically adapted for reference-based image editing guided by text prompts."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["# Core ML/DL Framework", "torch>=2.3.0", "torchvision>=0.18.0", "torchaudio>=2.3.0", "# LLM/Transformer Support", "transformers>=4.49.0", "accelerate>=0.30.1", "# Tensor Operations & Model Loading", "einops>=0.8.0", "safetensors>=0.4.3", "# Image Processing", "Pillow>=10.3.0", "# Utilities", "numpy>=1.26.4", "tqdm>=4.66.4", "# --- Optional Performance Libraries ---", "# Note: Installation for these often depends on your specific CUDA version and hardware.", "# Consult their respective documentation for installation instructions.", "# flash-attn>=2.5.8", "# liger-kernel (Installation method may vary)"]
+
+[project.urls]
+Repository = "https://github.com/HM-RunningHub/ComfyUI_RH_Step1XEdit"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_RH_Step1XEdit"
+Icon = ""
