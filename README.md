@@ -43,7 +43,7 @@ Place the downloaded models in your `ComfyUI/models/step-1/` directory.
     # --- Download Step1X Edit Model ---
     snapshot_download(
         repo_id="stepfun-ai/Step1X-Edit",
-        local_dir=target_dir,
+        local_dir=step-1,
         allow_patterns=["step1x-edit-i1258.safetensors"],
         local_dir_use_symlinks=False
     )
@@ -51,7 +51,7 @@ Place the downloaded models in your `ComfyUI/models/step-1/` directory.
     # --- Download VAE ---
     snapshot_download(
         repo_id="stepfun-ai/Step1X-Edit", # VAE is in the same repo
-        local_dir=target_dir,
+        local_dir=step-1,
         allow_patterns=["vae.safetensors"],
         local_dir_use_symlinks=False
     )
@@ -60,7 +60,7 @@ Place the downloaded models in your `ComfyUI/models/step-1/` directory.
     qwen_dir = os.path.join(target_dir, "Qwen2.5-VL-7B-Instruct")
     snapshot_download(
         repo_id="Qwen/Qwen2.5-VL-7B-Instruct",
-        local_dir=qwen_dir,
+        local_dir=step-1/Qwen2.5-VL-7B-Instruct,
         # ignore_patterns=["*.git*", "*.log*", "*.md", "*.jpg"], # Optional: reduce download size
         local_dir_use_symlinks=False
     )
