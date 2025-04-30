@@ -91,48 +91,15 @@ Place the downloaded models in your `ComfyUI/models/step-1/` directory.
     cd path/to/your/ComfyUI/custom_nodes/
     git clone https://github.com/Running-Introduction/ComfyUI_RH_Step1XEdit.git
     ```
-    *(Replace `https://github.com/Running-Introduction/ComfyUI_RH_Step1XEdit.git` with the actual repository URL if it's different)*
 2.  Install the required dependencies:
     ```bash
     cd ComfyUI_RH_Step1XEdit
     pip install -r requirements.txt
     ```
-    *(Note: Ensure the versions in `requirements.txt` are compatible with your ComfyUI environment, especially PyTorch and CUDA versions).*
 3.  Restart ComfyUI.
-
-## Usage
-
-Look for the `RunningHub Step1X Edit` node under the `Runninghub/Step1XEdit` category in ComfyUI.
-
-**Inputs:**
-
-*   `ref_image`: The input image to be edited.
-*   `prompt`: Text description of the desired edit.
-*   `num_steps`: Number of diffusion steps.
-*   `cfg_guidance`: Guidance scale.
-*   `size_level`: Approximate target size for processing (internal resolution is adjusted based on aspect ratio).
-*   `seed`: Random seed.
-
-**Outputs:**
-
-*   `image`: The edited output image.
 
 **(Example Image/Workflow)**
 
 *Add an example image or link to a workflow JSON here.*
 
 ![image](https://github.com/user-attachments/assets/035274a4-fc47-4249-acf0-a5e31cdd1671)
-
-## Troubleshooting
-
-*   **CUDA Errors:** Ensure your PyTorch installation matches your CUDA version. Check compatibility in `requirements.txt`.
-*   **Model Not Found:** Double-check that the models are correctly placed in the `ComfyUI/models/step-1/` directory as described in the Model Download section.
-*   **Dependencies:** If you encounter import errors, try reinstalling dependencies using `pip install -r requirements.txt`.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.
-
-## License
-
-(Specify the license for your project here, e.g., Apache 2.0, MIT, etc.)
