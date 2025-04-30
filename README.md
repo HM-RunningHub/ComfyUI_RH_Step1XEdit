@@ -100,6 +100,4 @@ Place the downloaded models in your `ComfyUI/models/step-1/` directory.
 
 **(Example Image/Workflow)**
 
-*Add an example image or link to a workflow JSON here.*
-
 ![image](https://github.com/user-attachments/assets/035274a4-fc47-4249-acf0-a5e31cdd1671)
