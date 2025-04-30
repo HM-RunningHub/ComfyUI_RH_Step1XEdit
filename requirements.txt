@@ -1,0 +1,25 @@
+# Core ML/DL Framework
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# LLM/Transformer Support
+transformers>=4.41.1
+accelerate>=0.30.1
+
+# Tensor Operations & Model Loading
+einops>=0.8.0
+safetensors>=0.4.3
+
+# Image Processing
+Pillow>=10.3.0
+
+# Utilities
+numpy>=1.26.4
+tqdm>=4.66.4
+
+# --- Optional Performance Libraries ---
+# Note: Installation for these often depends on your specific CUDA version and hardware.
+# Consult their respective documentation for installation instructions.
+# flash-attn>=2.5.8
+# liger-kernel (Installation method may vary) 
