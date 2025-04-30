@@ -2,12 +2,21 @@
 
 This is a ComfyUI custom node implementation for image editing using the Step-1 model architecture, specifically adapted for reference-based image editing guided by text prompts.
 
+## Online Access
+You can access RunningHub online to use this plugin and models for free:
+### English Version
+- **Run & Download Workflow**:  
+  [https://www.runninghub.ai/post/1916456042962817026](https://www.runninghub.ai/post/1916456042962817026)
+### 中文版本
+- **运行并下载工作流**:  
+  [https://www.runninghub.cn/post/1912930457355517954](https://www.runninghub.cn/post/1916456042962817026)
 ## Features
 
 *   Implementation of the Step-1 image editing concept within ComfyUI.
 *   Optimized for running on GPUs with 24GB VRAM.
 *   Supports FP8 inference for potentially faster performance and lower memory usage.
 *   Simple node interface for ease of use.
+*   Passed testing locally on Windows with an RTX 4090; generating a single image takes approximately 100 seconds.
 
 ## Model Download Guide
 
@@ -122,10 +131,6 @@ Look for the `RunningHub Step1X Edit` node under the `Runninghub/Step1XEdit` cat
 *   `seed`: Random seed.
 *   `use_fp8`: Enable/disable FP8 inference.
 
-**(Placeholder for Example Image/Workflow)**
+**(Example Image/Workflow)**
 
-*Include an example image here showing input, prompt, and output.*
-
-```json
-// Placeholder for example workflow JSON
-``` 
+![image](https://github.com/user-attachments/assets/035274a4-fc47-4249-acf0-a5e31cdd1671)
