@@ -9,7 +9,7 @@ You can access RunningHub online to use this plugin and models for free:
   [https://www.runninghub.ai/post/1916456042962817026](https://www.runninghub.ai/post/1916456042962817026)
 ### 中文版本
 - **运行并下载工作流**:  
-  [https://www.runninghub.cn/post/1912930457355517954](https://www.runninghub.cn/post/1916456042962817026)
+  [https://www.runninghub.cn/post/1916456042962817026](https://www.runninghub.cn/post/1916456042962817026)
 ## Features
 
 *   Implementation of the Step-1 image editing concept within ComfyUI.
